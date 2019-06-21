@@ -16,5 +16,9 @@ end
     it 'when passed "10A" it should return "AAAAAAAAAA" ' do
         expect(runlength_decode("10A")).to eq "AAAAAAAAAA"
     end
+
+    it 'when passed "22K" it should return "KKKKKKKKKKKKKKKKKKKKKK" ' do
+        expect(runlength_decode("22K")).to eq "KKKKKKKKKKKKKKKKKKKKKK"
+    end
     
 end 
